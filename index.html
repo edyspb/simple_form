@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Школа Node.js</title>
+        <meta charset="utf-8">
+        <style type="text/css">
+            .error { 
+                border: 1px solid red;
+            }
+        </style>
+    </head>
+    <body>
+        <form id="myForm" action="http://127.0.0.1:8000/form-test">
+            <input type="text" name="fio">ФИО<br>
+            <input type="text" name="email">Email<br>
+            <input type="text" name="phone">Телефон<br>
+            <input id="submitButton" type="submit">
+        </form>
+        <div id="resultContainer"></div>
+        <script src="jquery-3.2.1.min.js"></script>
+        <script src="index.js"></script>
+    </body>
+</html>
